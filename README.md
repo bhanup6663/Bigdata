@@ -22,3 +22,7 @@ The data size available for this use-case is sufficient - more than 10 times deg
 This is a supervised ML (classification) problem. Considering the numerical and categorical data in the dataset, the algorithms that could be used are decision-trees, random-forest and logistic regression. The dataset will be undersampled and split into training, validation and test. To account for undersampling in the dataset, stratified k-fold cross validation shall be applied. Decision trees can also be used for feature selection along with Pearson (or Kendall) correlation. While decision trees perform better with categorical data, logistic regression could perform better given that the size of data is less.
 
 The primary KPI for this analysis shall be precision, recall and F1 score over accuracy since it’s more important to predict fraudsters.
+
+**References:**
+1. [Vehicle Insurance Claim Fraud Dataset](https://www.kaggle.com/datasets/shivamb/vehicle-claim-fraud-detection)
+2. [Stratified Cross Validator](https://github.com/interviewstreet/spark-stratifier) (since Spark doesn't have a built-in method for stratified k-fold cross validation)
