@@ -26,3 +26,4 @@ The primary KPI for this analysis shall be precision, recall and F1 score over a
 **References:**
 1. [Vehicle Insurance Claim Fraud Dataset](https://www.kaggle.com/datasets/shivamb/vehicle-claim-fraud-detection)
 2. [Stratified Cross Validator](https://github.com/interviewstreet/spark-stratifier) (since Spark doesn't have a built-in method for stratified k-fold cross validation)
+3. [Insurance Fraud Detection Global Market Report 2023](https://www.thebusinessresearchcompany.com/report/insurance-fraud-detection-global-market-report)
